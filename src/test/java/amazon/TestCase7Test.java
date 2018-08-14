@@ -18,7 +18,11 @@ public class TestCase7Test
         WebElement element = driver.findElement(By.name("q"));	
         element.sendKeys("phantom.js");					
         element.submit();         			
-        System.out.println("Page title is: " + driver.getTitle());		
+        System.out.println("Page title is: " + driver.getTitle());
+        
+        System.out.println("-------------------------------");
+        
+        
         driver.quit();
 	}
 }
