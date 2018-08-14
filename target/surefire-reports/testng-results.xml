@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="53548" started-at="2018-06-26T14:09:21Z" finished-at="2018-06-26T14:10:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="13804" started-at="2018-06-26T14:09:21Z" finished-at="2018-06-26T14:09:35Z">
+      <class name="amazon.TitleValidationTest">
+        <test-method status="PASS" signature="initilization()[pri:0, instance:amazon.TitleValidationTest@18c1ddd]" name="initilization" is-config="true" duration-ms="11500" started-at="2018-06-26T14:09:21Z" finished-at="2018-06-26T14:09:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilization -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:amazon.TitleValidationTest@18c1ddd]" name="basePageNavigation" duration-ms="152" started-at="2018-06-26T14:09:33Z" finished-at="2018-06-26T14:09:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:amazon.TitleValidationTest@18c1ddd]" name="tearDown" is-config="true" duration-ms="2113" started-at="2018-06-26T14:09:33Z" finished-at="2018-06-26T14:09:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- amazon.TitleValidationTest -->
+    </test> <!-- Test -->
+    <test name="Test0" duration-ms="26637" started-at="2018-06-26T14:09:35Z" finished-at="2018-06-26T14:10:02Z">
+      <class name="amazon.HomePageTest">
+        <test-method status="PASS" signature="initilization()[pri:0, instance:amazon.HomePageTest@1227d8d]" name="initilization" is-config="true" duration-ms="9156" started-at="2018-06-26T14:09:35Z" finished-at="2018-06-26T14:09:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilization -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:amazon.HomePageTest@1227d8d]" name="basePageNavigation" duration-ms="17084" started-at="2018-06-26T14:09:44Z" data-provider="getData" finished-at="2018-06-26T14:10:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9030804086]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nagarjuna@19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:amazon.HomePageTest@1227d8d]" name="tearDown" is-config="true" duration-ms="388" started-at="2018-06-26T14:10:01Z" finished-at="2018-06-26T14:10:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- amazon.HomePageTest -->
+    </test> <!-- Test0 -->
+    <test name="Test1" duration-ms="12999" started-at="2018-06-26T14:10:02Z" finished-at="2018-06-26T14:10:15Z">
+      <class name="amazon.NavigationValidationTest">
+        <test-method status="PASS" signature="initilization()[pri:0, instance:amazon.NavigationValidationTest@128854b]" name="initilization" is-config="true" duration-ms="10347" started-at="2018-06-26T14:10:02Z" finished-at="2018-06-26T14:10:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilization -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:amazon.NavigationValidationTest@128854b]" name="basePageNavigation" duration-ms="488" started-at="2018-06-26T14:10:12Z" finished-at="2018-06-26T14:10:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:amazon.NavigationValidationTest@128854b]" name="tearDown" is-config="true" duration-ms="2163" started-at="2018-06-26T14:10:13Z" finished-at="2018-06-26T14:10:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- amazon.NavigationValidationTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

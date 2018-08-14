@@ -1,0 +1,4 @@
+pageObjects\LogInPage.class
+resources\BaseClass.class
+pageObjects\LandingPage.class
+amazon\App.class
